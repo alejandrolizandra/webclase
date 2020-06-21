@@ -1,7 +1,7 @@
 header {
     padding: 20px;
     text-align: left;
-    background: #1abc9c;
+    background: blue;
     color: white;
     font-size: 10px;
     margin: 0;
@@ -10,3 +10,26 @@ header {
   body {
     margin:0;
   }
+  footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+ul.horizontal {
+  padding: 0;
+  text-align: center;
+  }
+  
+ul.horizontal li {
+  display: inline;
+  }
+
+ul.horizontal li a {
+    font-family: Arial;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 20px;
+    background-color:white;
+    color: black;
+    }

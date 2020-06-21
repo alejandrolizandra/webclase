@@ -1,5 +1,6 @@
 section {
     text-align: center;
+    margin-left: 20px;
 }
 
 
@@ -7,6 +8,8 @@ header {
 background-color: darkorange;
 color: black;
 padding: 3px;
+text-align: left;
+padding-left: 30px;
 }
 body {margin: 0px;
     text-align: justify;
@@ -18,3 +21,12 @@ footer {
     color: white;
     text-align: center;
 }
+nav {
+    position: fixed;
+    top: 20;
+    left: 0;
+    width: 14.5em;
+    padding-left: 0.2em;
+    font-size: 100%;
+    text-align: left;
+  }
