@@ -21,10 +21,12 @@
     </header>
     <nav>
         <ul>
+            <h1>Barra Navegacion</h1>
+            <li><a href="parte2.html"><b>Ir Arriba</b></a></li>
             <li><a href="parte2.html#figure">Etiqueta Figure</a></li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
+            <li><a href="parte2.html#iframe">Etiqueta Iframe</a></li>
+            <li><a href="parte2.html#video">Etiqueta Video</a></li>
+            <li><a href="parte2.html#audio">Etiqueta Audio</a></li>
         </ul>
     </nav>
     <main>
@@ -43,8 +45,8 @@
             </figure>
             <img src="ejemplofigure.jpg" alt="ejemplo figure en visual studio code">
             <figcaption>Ejemplo de uso de la etiqueta figure</figcaption>
-            <h2>
-                2.Ventajas de la etiqueta figure </h2>
+            <h3>
+                Ventajas de la etiqueta figure </h3>
             <p>
 
                 La
@@ -56,14 +58,50 @@
                 figcaption
             </p>
 
-
+            <p><b>Compatibilidad con los navegadores</b></p>
+            <p><img src="soportefigure.jpg" alt="Soporte"></p>
+        </section>
+        <section>
+            <h1 id="iframe">
+                2.Etiqueta iframe
+            </h1>
+            <iframe class="mc" src="https://www.mclibre.org/consultar/htmlcss/index.html"> </iframe>
+            <p>Como podemos observar su uso es sencillo, en la actulizad esta en desuso, nos permite encapsular en un
+                marco una web dentro de otra, los robots de google no lo valoran bien ya que reduce la legiblidad</p>
+            <img src="iframe.jpg" alt="Ejemplo IFRAME">
+            <p><b>Compatibilidad con los navegadores</b></p>
+            <p><img src="soporteiframe.jpg" alt="Soporte"></p>
         </section>
 
 
 
-
-
-
+        <section>
+            <h1 id="video">
+                3.Etiqueta Video
+            </h1>
+            <video width="50%" height="50%" controls>
+                <source src="videolibre.mp4" type="video/mp4">
+                Tu navegador no soporta la etiqueta video </video>
+            <p>Esta etiqueta nos permite incrustar un video en nuestra web, podemos darle el tamaño que queramos,
+                tenemos que tener en cuenta que si supera la resolucion original del video se vera pixelado</p>
+            <img src="video.jpg" alt="Ejemplo video">
+            <p><b>Compatibilidad con los navegadores</b></p>
+            <p><img src="soportevideo.jpg" alt="Soporte"></p>
+        </section>
+        <section>
+            <h1 id="audio">
+                3.Etiqueta Audio
+            </h1>
+            <audio controls>
+                <source src="caballo.mp3" type="audio/mpeg">
+                Tu navegador no soporta audio </audio>
+            <p>Esta etiqueta nos permite incrustar un audio en nuestra web, podemos darle el tamaño que
+                queramos,
+                tenemos que tener en cuenta que si supera la resolucion original del video se vera pixelado</p>
+            <img src="audio.jpg" alt="Ejemplo audio">
+            <p><b>Compatibilidad con los navegadores</b></p>
+            <p><img src="soporteaudio.jpg" alt="Soporte"></p>
+        </section>
     </main>
     <footer>
         <address>

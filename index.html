@@ -32,10 +32,29 @@
       <li><a href="https://www.shutterstock.com/es/search/pinguino">&#x1f4f7;Shuterstock</a></li>
       <li><a href="https://www.anipedia.net/pinguinos/especies-pinguinos/">&#x1f170;Anipedia</a></li>
     </ul>
+    <section>
+      <dialog id="dialog-1">
+        <h1>Hola soy un pingüino emperador</h1>
+
+        <p>
+          <img src="imagenes/emperador.jpg" alt="Emperador">
+        </p>
+
+        <p>
+          <input type="button" value="Cerrar" onclick="document.getElementById('dialog-1').removeAttribute('open')">
+        </p>
+      </dialog>
+
+      <p>
+        <input type="button" value="Muestra diálogo"
+          onclick="document.getElementById('dialog-1').setAttribute('open', 'open')">
+      </p>
+    </section>
     <p class="centrado">
       <img class="random" src="imagenes/iceberg.jpg" alt="iceberg">
     </p>
   </section>
+
   <p class="trabajo">Esta web es un trabajo para la asignatura de lenguaje de marcas impartida por Bartolomé Sintes
     Marco </p>
   <footer>
