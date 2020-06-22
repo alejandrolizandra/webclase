@@ -5,6 +5,7 @@ header {
     color: white;
     font-size: 10px;
     margin: 0;
+    
   }
   
   body {
@@ -14,6 +15,9 @@ header {
     background-color: black;
     color: white;
     text-align: center;
+    position: fixed;
+      bottom: 0px;
+      width: 100%;
 }
 
 ul.horizontal {
@@ -75,3 +79,8 @@ ul.horizontal li a {
   h1 {font-size: 200%;}
   p.trabajo {border-left: dotted;
   margin-left: 15%;}
+  ul.biblio{
+    text-decoration: double;
+font-size: 125%;  }
+p.titulo {color: blue;
+font-size: 30px;}
