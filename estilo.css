@@ -7,7 +7,16 @@ header {
     margin: 0;
     
   }
-  
+  ul.horizontal li h1 {
+    font-family: Arial;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 20px;
+    background-color:white;
+    color: black;
+    display: inline;
+    font-weight: bold;
+    }
   body {
     margin:0;
   }
@@ -15,8 +24,7 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    position: fixed;
-      bottom: 0px;
+      bottom: -10px;
       width: 100%;
 }
 
@@ -78,9 +86,12 @@ ul.horizontal li a {
     }
   h1 {font-size: 200%;}
   p.trabajo {border-left: dotted;
-  margin-left: 15%;}
+  margin-left: 15%;
+margin-bottom: 20px;}
+  
   ul.biblio{
     text-decoration: double;
 font-size: 125%;  }
 p.titulo {color: blue;
 font-size: 30px;}
+.centrado {text-align: center;}
